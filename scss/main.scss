@@ -1,0 +1,44 @@
+.header{
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: grey;
+    .navigation{
+         margin-top: 20px;
+         .nav-ul{
+             display: flex;
+             justify-content: flex-end;
+             align-items: center;
+         }
+         .nav-li{
+             margin-left: 20px;
+             .nav-a{
+                 font-size: 30px;
+                 font-family: $font01;
+             }
+         }
+    }
+}
+
+.aqua-bg{
+    background:$color1;
+    margin-top: $size01;
+    .container{
+        max-width:1170px;
+        width: 100%;
+        margin: 0 auto;
+        .d-flex{
+            display: flex;
+            justify-content: space-between;
+           
+            p{
+                font-size: 15px;
+                line-height: 20px;;
+                font-family: $font01;
+            }
+        }
+
+    }
+}
